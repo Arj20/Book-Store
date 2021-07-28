@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #3b5998;
+  color: white;
+}
+
+.header button {
+  color: white;
+  border: 1px solid white;
+}

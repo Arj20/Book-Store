@@ -1,0 +1,42 @@
+.item {
+  list-style: none;
+  background: #3b5998;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  gap: 1.4rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.item header {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.actions {
+  text-align: right;
+}
+.actions button {
+  border: 1px solid white;
+}
+
+.actions button:hover {
+  background: white;
+  color: #3b5998;
+}
+
+.badge:hover {
+  background: white;
+  color: #3b5998;
+}
+
+@media screen and (max-width: 375px) {
+  .item {
+    width: 50%;
+    margin: 1rem 2rem;
+  }
+}

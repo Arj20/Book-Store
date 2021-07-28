@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: auto;
+}
+
+.products > h2 {
+  text-align: center;
+  color: rgb(25, 130, 172);
+
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  h2 {
+    display: none;
+  }
+}

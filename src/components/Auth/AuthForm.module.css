@@ -1,0 +1,56 @@
+.auth {
+  width: 20rem;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  background: #3b5998;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.control > input {
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.actions > button {
+  width: fit-content;
+  color: white;
+}
+
+.toggle {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.toggle:hover {
+  opacity: 0.5;
+}
