@@ -19,7 +19,7 @@ const DUMMY_DATA = [
 const Products = (props) => {
   return (
     <section className={classes.products}>
-      <h2>BUY YOUR FAVIROUTE PRODUCTS</h2>
+      <h2>BUY YOUR FAVIROUTE BOOKS</h2>
       <ul>
         {DUMMY_DATA.map((product) => (
           <ProductItem
