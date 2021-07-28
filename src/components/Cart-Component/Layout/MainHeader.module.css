@@ -8,9 +8,16 @@
   font-weight: bold;
   background: #3b5998;
   color: white;
+  width: 100%;
 }
 
 .header button {
   color: white;
   border: 1px solid white;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 100%;
+  }
 }
