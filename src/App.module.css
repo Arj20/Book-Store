@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 .loader {
   width: 200px;
   height: 200px;

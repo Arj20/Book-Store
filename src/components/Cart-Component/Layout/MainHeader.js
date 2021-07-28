@@ -12,7 +12,7 @@ const MainHeader = () => {
 
   return (
     <header className={classes.header}>
-      <h3>ReduxCart</h3>
+      <h3>BookCart</h3>
       <nav>
         <ul>
           <li>

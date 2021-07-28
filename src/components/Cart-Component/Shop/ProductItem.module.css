@@ -39,4 +39,10 @@
     width: 50%;
     margin: 1rem 2rem;
   }
+
+  .actions{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
 }

@@ -8,11 +8,13 @@
 .products > h2 {
   text-align: center;
   color: rgb(25, 130, 172);
-
   margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 375px) {
+  .products {
+    margin: 1rem 3rem;
+  }
   h2 {
     display: none;
   }
