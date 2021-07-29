@@ -28,12 +28,6 @@ nav > ul {
   color: white;
 }
 
-.header a:hover {
-  background: white;
-  color: #3b5998;
-  border: #3b5998;
-}
-
 button {
   outline: none;
   background: #3b5998;
